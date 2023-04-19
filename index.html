@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario Muchik</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body onload="init()">
+    <form>
+        <input type="text" name="q" placeholder="muchik">
+        <button>Buscar</button>
+    </form>
+    <div id="result">
+        <p>
+            Diccionario de la lengua Mochica o Yunga, 
+            basado en las investigaciones documentadas desde el año 1644.
+            <a href="https://es.wikipedia.org/wiki/Idioma_mochica" target="_blank">[Wikipedia]</a>
+        </p>
+        <h3>Investigadores e informantes</h3>
+        <p>
+            <a target="_blank" title="Toribio Alfonso de Mogrovejo" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Toribio Alfonso de Mogrovejo">
+                (AM)
+            </a> Toribio Alfonso de Mogrovejo
+        </p>
+        <p>
+            <a target="_blank" title="Ana Ramos Cabrera" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Ana Ramos Cabrera">
+                (AR)
+            </a> Ana Ramos Cabrera
+        </p>
+        <p>
+            <a target="_blank" title="J. Antonio Salas" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+J. Antonio Salas">
+                (AS)
+            </a> J. Antonio Salas
+        </p>
+        <p>
+            <a target="_blank" title="Antonio Serrepe Ascencio" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Antonio Serrepe Ascencio">
+                (ASA)
+            </a> Antonio Serrepe Ascencio
+        </p>
+        <p>
+            <a target="_blank" title="Alfredo Torero" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Alfredo Torero">
+                (AT)
+            </a> Alfredo Torero
+        </p>
+        <p>
+            <a target="_blank" title="Amado Vilchez" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Amado Vilchez">
+                (AV)
+            </a> Amado Vilchez
+        </p>
+        <p>
+            <a target="_blank" title="José Ayala" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+José Ayala">
+                (Ay)
+            </a> José Ayala
+        </p>
+        <p>
+            <a target="_blank" title="Enrique Brüning" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Enrique Brüning">
+                (B)
+            </a> Enrique Brüning
+        </p>
+        <p>
+            <a target="_blank" title="Adolf Bastian" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Adolf Bastian">
+                (Bas)
+            </a> Adolf Bastian
+        </p>
+        <p>
+            <a target="_blank" title="Fernando de la Carrera" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Fernando de la Carrera">
+                (C)
+            </a> Fernando de la Carrera
+        </p>
+        <p>
+            <a target="_blank" title="Rodolfo Cerrón Palomino" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Rodolfo Cerrón Palomino">
+                (CP)
+            </a> Rodolfo Cerrón Palomino
+        </p>
+        <p>
+            <a target="_blank" title="Antonio de la Calancha" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Antonio de la Calancha">
+                (Cal)
+            </a> Antonio de la Calancha
+        </p>
+        <p>
+            <a target="_blank" title="Konrad Huber" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Konrad Huber">
+                (H)
+            </a> Konrad Huber
+        </p>
+        <p>
+            <a target="_blank" title="K. Huber - P. Kosok" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+K. Huber - P. Kosok">
+                (H-K)
+            </a> K. Huber - P. Kosok
+        </p>
+        <p>
+            <a target="_blank" title="Paúl Kosok" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Paúl Kosok">
+                (K)
+            </a> Paúl Kosok
+        </p>
+        <p>
+            <a target="_blank" title="Rafael Larco Hoyle" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Rafael Larco Hoyle">
+                (L)
+            </a> Rafael Larco Hoyle
+        </p>
+        <p>
+            <a target="_blank" title="Lorenzo Colchón" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Lorenzo Colchón">
+                (LC)
+            </a> Lorenzo Colchón
+        </p>
+        <p>
+            <a target="_blank" title="Manuel Llonto" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Manuel Llonto">
+                (LL)
+            </a> Manuel Llonto
+        </p>
+        <p>
+            <a target="_blank" title="Ernst Middendorf" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Ernst Middendorf">
+                (M)
+            </a> Ernst Middendorf
+        </p>
+        <p>
+            <a target="_blank" title="B. Martínez de Compañón" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+B. Martínez de Compañón">
+                (Mar)
+            </a> B. Martínez de Compañón
+        </p>
+        <p>
+            <a target="_blank" title="Rafael Quesquén" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Rafael Quesquén">
+                (Q)
+            </a> Rafael Quesquén
+        </p>
+        <p>
+            <a target="_blank" title="Domingo Reyes" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Domingo Reyes">
+                (R)
+            </a> Domingo Reyes
+        </p>
+        <p>
+            <a target="_blank" title="Antonio Rodríguez Suysuy" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Antonio Rodríguez Suysuy">
+                (RS)
+            </a> Antonio Rodríguez Suysuy
+        </p>
+        <p>
+            <a target="_blank" title="Richard Schaedel" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Richard Schaedel">
+                (SCH)
+            </a> Richard Schaedel
+        </p>
+        <p>
+            <a target="_blank" title="Federico Villarreal Villarreal" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Federico Villarreal Villarreal">
+                (V)
+            </a> Federico Villarreal Villarreal
+        </p>
+        <p>
+            <a target="_blank" title="Walter Lehmann" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Walter Lehmann">
+                (WL)
+            </a> Walter Lehmann
+        </p>
+        <p>
+            <a target="_blank" title="Jorge Zevallos Quiñones" href="https://www.google.com.pe/search?tbm=bks&amp;q=moche+Jorge Zevallos Quiñones">
+                (Z)
+            </a> Jorge Zevallos Quiñones
+        </p>
+    </div>
+</body>
+</html>

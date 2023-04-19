@@ -1,0 +1,25 @@
+:root {
+    --c-bb: #eee;
+    --c-bc: #222;
+}
+body {
+    background-color: var(--c-bb);
+    color: var(--c-bc);
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+input {
+    font-size: inherit;
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+#result {
+    font-size: large;
+}
+a {
+    text-decoration: none;
+}
+pre {
+    padding-left: 1em;
+}
