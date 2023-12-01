@@ -1,0 +1,122 @@
+:root {
+    --c1: #222;
+    --c2: #ddd;
+    --c3: #777;
+    --c4: #0d0;
+    --c5: #0df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: var(--c1);
+    color: var(--c2);
+}
+
+header,
+main,
+footer {
+    display: block;
+    max-width: 1080px;
+    margin: auto;
+    padding: 1em;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+    font-size: smaller;
+}
+
+form {
+    display: flex;
+    text-align: center;
+
+    & input,
+    button {
+        background-color: inherit;
+        color: inherit;
+        border: 1px solid var(--c3);
+        border-radius: 3px;
+        padding: .5em 1em;
+        margin: .1em;
+    }
+
+    & input {
+        width: 100%;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: xx-large;
+    color: var(--c4);
+}
+
+h2 {
+    margin-top: 2em;
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
+
+    & a {
+        color: var(--c5);
+    }
+}
+
+li {
+    list-style: square;
+    margin-left: 2em;
+
+    & a {
+        width: 50px;
+        color: var(--c5);
+        display: inline-block;
+    }
+}
+
+p {
+    padding: 1em 1em 1em 0;
+
+    & a {
+        color: inherit;
+        text-decoration: underline;
+    }
+}
+
+pre {
+    text-wrap: wrap;
+}
+
+/* CLASSES */
+.dn {
+    display: none;
+}
+
+.tac {
+    text-align: center;
+}
