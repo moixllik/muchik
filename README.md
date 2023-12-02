@@ -6,8 +6,9 @@ el año 1644. [[Wikipedia]](https://es.wikipedia.org/wiki/Idioma_mochica)
 ## Índice
 
 1. [Pronunciación](./docs/pronunciation.md)
-1. [Gramática]()
-1. [Referencias]()
+1. [Gramática](./docs/grammar.md)
+1. [Investigadores](./docs/researchers.md)
+1. [Referencias](./docs/references.md)
 
 
 ## Investigadores e informantes

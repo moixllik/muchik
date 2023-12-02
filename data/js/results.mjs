@@ -2,7 +2,7 @@ class MyResults extends HTMLElement {
     constructor() {
         super();
         this.query = location.search.slice(1).split('=');
-        this.db = new Worker('/js/worker.js');
+        this.db = new Worker('/data/js/worker.js');
         this.tmpl = document.querySelector('#my-results');
     }
     connectedCallback() {
