@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Diccionario Muchik - Moixllik</title>
+    <title>Diccionario Muchik</title>
     <meta name="description" content="Diccionario de la lengua Muchik / Mochica / Yunga del norte de Perú">
 
     <link rel="stylesheet" href="/css/index.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <script async type="module" src="/js/my/sources.mjs"></script>
-    <script async type="module" src="/js/my/results.mjs"></script>
+    <script async type="module" src="/js/results.mjs"></script>
 </head>
 
 <body>
@@ -30,27 +29,12 @@
             <h2>Lista de resultados</h2>
             <my-results></my-results>
         </section>
-
-        <section>
-            <h2>Investigadores e informantes</h2>
-            <p>
-                Diccionario basado en las <a href="https://es.wikipedia.org/wiki/Idioma_mochica">investigaciones
-                    documentadas</a> desde el año 1644.
-            </p>
-            <ul>
-                <my-sources></my-sources>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Descargar base de datos</h2>
-            <p>
-                Base de datos en <a href="https://www.sqlite.org/">SQLite</a>: <a
-                    href="/data/data.sqlite">data.sqlite</a>
-            </p>
-        </section>
     </main>
-    <footer>&copy; 2023</footer>
+    <footer>
+        &copy; 2023
+        | <a href="https://github.com/moixllik/muchik">Repositorio</a>
+        | <a href="/data/data.sqlite">Base de Datos</a>
+    </footer>
 
     <!-- TEMPLATES -->
     <template id="my-results">
@@ -58,13 +42,6 @@
             <h3><a href="/?id={{ id }}">{{ muchik }}</a></h3>
             <pre>{{ spanish }}</pre>
         </div>
-    </template>
-
-    <template id="my-sources">
-        <li>
-            <a href="https://www.google.com.pe/search?tbm=bks&q=moche+{{ name }}">{{ key }}</a>
-            {{ name }}
-        </li>
     </template>
 </body>
 
