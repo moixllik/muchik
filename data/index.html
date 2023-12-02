@@ -22,13 +22,11 @@
         </form>
     </header>
     <main>
-        <section class="dn">
-            <h2>Lista de resultados</h2>
-            <my-results></my-results>
-        </section>
+        <my-results></my-results>
     </main>
     <footer>
         &copy; 2023
+        | <a href="../">Portada</a>
         | <a href="https://github.com/moixllik/muchik">Repositorio</a>
         | <a href="/data/data.sqlite">Base de Datos</a>
     </footer>
@@ -36,7 +34,7 @@
     <!-- TEMPLATES -->
     <template id="my-results">
         <div>
-            <h3><a href="/?id={{ id }}">{{ muchik }}</a></h3>
+            <h3><a href="/data/?id={{ id }}">{{ muchik }}</a></h3>
             <pre>{{ spanish }}</pre>
         </div>
     </template>
