@@ -8,10 +8,10 @@ el año 1644. [[Wikipedia]](https://es.wikipedia.org/wiki/Idioma_mochica)
 
 1. [Diccionario](./data/?q=moix)
 
-1. [Pronunciación](./docs/grammar/)
-    1. [Sustantivo](./docs/grammar/noun.md)
+1. [Pronunciación](./docs/pronunciation.md)
 
-1. [Gramática](./docs/grammar.md)
+1. [Gramática](./docs/grammar)
+    1. [Sustantivo](./docs/grammar/noun.md)
 
 1. [Investigadores](./docs/researchers.md)
 
