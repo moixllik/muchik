@@ -3,7 +3,7 @@
 # Pronunciación
 
 Varios investigadores de diferentes nacionalidades al registrar usaron signos
-de sus respectivos idiomas que tenian el sonido similar o en su defecto al Latín.
+de sus respectivos idiomas que tenían el sonido similar o en su defecto al Latín.
 
 > Pronunciación con [AFI](https://es.wikipedia.org/wiki/Alfabeto_Fon%C3%A9tico_Internacional)
 
@@ -26,7 +26,7 @@ Se han registrado las mismas vocales que en el español agregando una en particu
 ## Consonantes
 
 Con los últimos registros del idioma en el habla de los nativos, el mochica ha importado
-varias palabras del español y quechua, por tal motivo también las consonates.
+varias palabras del español y quechua, por tal motivo también las consonantes.
 
 |    |    | 
 | -- | -- |
