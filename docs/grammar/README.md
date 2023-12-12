@@ -3,3 +3,4 @@
 # Gramática
 
 1. [Sustantivo](noun.md)
+1. [Adjetivo](adjective.md)

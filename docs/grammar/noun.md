@@ -5,7 +5,6 @@
 * Palabras con existencia real, independiente e individual
 * Nombra a los seres, a los objetos, pero también a los procesos y los pensamientos
 
-
 ## Género
 
 * No existe el artículo
@@ -13,23 +12,22 @@
 * Para el masculino se usa `ñangcu` (macho) o `ñofæn` (varón)
 * Para el femenino se usa `mecherræc` (mujer o hembra)
 
-    * perro = `ñangcuio fanú`
-    * perra = `mecherræco fanú`
-    * ave macho = `ñofæno naiñ`
-    * ave hembra = `mecherræco naiñ`
-
+  * perro = `ñangcuio fanú`
+  * perra = `mecherræco fanú`
+  * ave macho = `ñofæno naiñ`
+  * ave hembra = `mecherræco naiñ`
 
 ## Número
 
 * Anteponiendo los nombres adjetivos "mucho" o "muchedumbre" = `tunituni` (mucho) o `izcæc` (todo)
 
-    * muchos hombres = `tunituni ñofæn`
-    * todas mujeres = `izcæc mecherræc`
+  * muchos hombres = `tunituni ñofæn`
+  * todas mujeres = `izcæc mecherræc`
 
 * Posponiendo la partícula `æn`, escribiéndola por separado
 
-    * hombres, los hombres = `ñofæen æn`
-    * mujeres, las mujeres = `nepæt æn`
+  * hombres, los hombres = `ñofæen æn`
+  * mujeres, las mujeres = `nepæt æn`
 
 ## Caso
 

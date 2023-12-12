@@ -4,8 +4,8 @@
 
 Diccionario basado en las investigaciones documentadas desde el año 1644.
 
-| ID    | Investigación 
-| ----- | ------------- 
+| ID    | Investigación
+| ----- | -------------
 | ASA   | Antonio Serrepe Ascencio
 | V     | Federico Villarreal Villarreal
 | AM    | Toribio Alfonso de Mogrovejo

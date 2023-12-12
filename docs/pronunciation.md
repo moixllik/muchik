@@ -7,7 +7,6 @@ de sus respectivos idiomas que tenían el sonido similar o en su defecto al Lat�
 
 > Pronunciación con [AFI](https://es.wikipedia.org/wiki/Alfabeto_Fon%C3%A9tico_Internacional)
 
-
 ## Vocales
 
 Se han registrado las mismas vocales que en el español agregando una en particular
@@ -22,19 +21,18 @@ Se han registrado las mismas vocales que en el español agregando una en particu
 | u, û          | u, ū, ŭ
 | æ             | ä, ů
 
-
 ## Consonantes
 
 Con los últimos registros del idioma en el habla de los nativos, el mochica ha importado
 varias palabras del español y quechua, por tal motivo también las consonantes.
 
-|    |    | 
+|    |    |
 | -- | -- |
 | Nasal                     | `m`, `/n̪/ n`, `/ɲ/ ñ`, `/ŋ/ ng`
 | Oclusiva Simple           | `p`, `/t̪/ t`, `/c/ cɥ`, `k`, `/ʔ/ '`
 | Oclusiva Palatalizado     | `/t̪ʲ/ tzhi itzh`
 | Africada                  | `/t͡s/ tzh`, `t͡ʃ ch`
-| Fricativa Simple          | `/ɸ/ f`, `/θ/ z`, `/ð/ d`, `s`, `/ʃ/ x`, `/ç~xj~jx/ xll`, `/j/ y`, `/x/ l`	
+| Fricativa Simple          | `/ɸ/ f`, `/θ/ z`, `/ð/ d`, `s`, `/ʃ/ x`, `/ç~xj~jx/ xll`, `/j/ y`, `/x/ l` 
 | Fricativa Palatalizado    | `/θʲ/ çi-iz`
 | Lateral                   | `/ʎ/ ll`
 | Vibrante Simple           | `/ɾ/ r`

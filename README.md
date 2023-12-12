@@ -1,8 +1,7 @@
 # Muchik
 
-Diccionario de la lengua Muchik / Mochica / Yunga, basado en las investigaciones documentadas desde 
+Diccionario de la lengua Muchik / Mochica / Yunga, basado en las investigaciones documentadas desde
 el año 1644. [[Wikipedia]](https://es.wikipedia.org/wiki/Idioma_mochica)
-
 
 ## Índice
 
@@ -12,15 +11,15 @@ el año 1644. [[Wikipedia]](https://es.wikipedia.org/wiki/Idioma_mochica)
 
 1. [Gramática](./docs/grammar)
     1. [Sustantivo](./docs/grammar/noun.md)
+    1. [Adjetivo](./docs/grammar/adjective.md)
 
 1. [Investigadores](./docs/researchers.md)
 
 1. [Referencias](./docs/references.md)
 
-
 ## Base de datos
 
-Base de datos en [SQLite](https://www.sqlite.org/) y 
+Base de datos en [SQLite](https://www.sqlite.org/) y
 [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) (separados por `\t`):
 
 * [data.sqlite](./data/data.sqlite)
