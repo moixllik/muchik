@@ -12,6 +12,7 @@ el año 1644. [[Wikipedia]](https://es.wikipedia.org/wiki/Idioma_mochica)
 1. [Gramática](./docs/grammar)
     1. [Sustantivo](./docs/grammar/noun.md)
     1. [Adjetivo](./docs/grammar/adjective.md)
+    1. [Pronombre](./docs/grammar/pronoun.md)
 
 1. [Investigadores](./docs/researchers.md)
 
