@@ -8,15 +8,15 @@
     <title>Diccionario Muchik</title>
     <meta name="description" content="Diccionario de la lengua Muchik / Mochica / Yunga del norte de Perú">
 
-    <link rel="stylesheet" href="/data/css/index.css">
+    <link rel="stylesheet" href="/muchik/data/css/index.css">
 
-    <script async type="module" src="/data/js/results.mjs"></script>
+    <script async type="module" src="/muchik/data/js/results.mjs"></script>
 </head>
 
 <body>
     <noscript>Se requiere JavaScript</noscript>
     <header>
-        <form action="/data/">
+        <form action="/muchik/data/">
             <input type="search" name="q" placeholder="Buscar">
             <button>Buscar</button>
         </form>
@@ -28,13 +28,13 @@
         &copy; 2023
         | <a href="../">Portada</a>
         | <a href="https://github.com/moixllik/muchik">Repositorio</a>
-        | <a href="/data/data.sqlite">Base de Datos</a>
+        | <a href="/muchik/data/data.sqlite">Base de Datos</a>
     </footer>
 
     <!-- TEMPLATES -->
     <template id="my-results">
         <div>
-            <h3><a href="/data/?id={{ id }}">{{ muchik }}</a></h3>
+            <h3><a href="/muchik/data/?id={{ id }}">{{ muchik }}</a></h3>
             <pre>{{ spanish }}</pre>
         </div>
     </template>

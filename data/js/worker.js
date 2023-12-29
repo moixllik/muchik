@@ -1,4 +1,4 @@
-const db = '/data';
+const db = '/muchik/data';
 
 async function get_tsv(path) {
     const res = await fetch(db + path);
